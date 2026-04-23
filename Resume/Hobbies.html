@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+    <style>
+        /* Persona 5 inspired style */
+    body {
+    background-color: #121111; /* dark background */
+    font-family: 'Bangers', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    }
+
+
+    header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px; /* reduce empty space */
+    max-width: 900px; /* keeps it contained */
+    }
+
+
+    /* Page title */
+    h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    transform: skew(-10deg);
+    text-shadow: 3px 3px 0 #ff0000, 6px 6px 0 #000000;
+    border: 4px solid white;
+    display: inline-block;
+    padding: 15px 30px; /* balanced padding */
+    box-shadow: 6px 6px 0 #ff0000;
+    margin: 10px auto; /* smaller margin */
+    max-width: 900px; /* keeps it contained */
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    background: #1c1c1c; /* adds contrast box */
+    display: inline-block;
+    }
+
+    
+
+    /* Horizontal line under title */
+    hr {
+    border: none;
+    height: 4px;
+    background: white;
+    box-shadow: 4px 4px 0 #ff0000;
+    transform: skew(-10deg);
+    margin: 20px auto;
+    width: 80%;
+    }
+
+    /* Hobby list */
+    ul {
+    list-style: none; /* remove default bullets */
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 800px;
+    min-height: 70vh;   
+    }
+
+    ul li {  
+    background-color: #121111;
+    border: 4px solid white;
+    margin: 20px 0;
+    line-height: 1.5;
+    padding: 15px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transform: skew(-5deg);
+    box-shadow: 6px 6px 0 #ff0000;
+    text-shadow: 2px 2px 0 #ff0000, 4px 4px 0 #000000;
+    }
+
+    .bottom-container {
+    display: flex;              /* make footer a flex container */
+    justify-content: space-between; /* spread content left & right */
+    align-items: center;        /* vertically center items */
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Bangers', sans-serif;
+    font-size: 1rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transform: skew(-10deg); /* angled style */
+    position: relative;
+    padding: 20px;
+    font-size: 1.1rem;
+
+        
+    /* Bold comic-style shadow */
+    text-shadow:
+        3px 3px 0 #ff0000,  /* red outline */
+        6px 6px 0 #000000;  /* black drop shadow */
+    
+    /* Optional border effect */
+    border: 4px solid white;
+    box-shadow: 6px 6px 0 #ff0000;
+    }
+
+    .bottom-container nav {
+    gap: 30px;   /* spacing between links */
+    }
+
+    .custom-text {
+    text-decoration: none; /* removes underline */
+    color: white;          /* changes font color */
+    }
+
+    .custom-text:hover {
+    color: #ff0000; /* highlight on hover */
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    ul li {
+        font-size: 1rem;
+        padding: 10px;
+      }
+
+    
+  
+    }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Hobbies</h1>
+
+    </header>
+    <ul>
+        <li><span class="highlight">Play Video Games</span> (JRPG, Adventure, Music, Team-strategy games)</li>
+        <li>Loves Music (play guitar and sing)</li>
+        <li>Learning Web Development and Programming</li>
+        <li>Watch Anime, TV Shows, Movies and read Mangas</li>
+        <li>Sports(Taekwondo, Calisthenics, Jogging/Running, Basketball, and Kendo)</li>
+    </ul><hr>
+
+<footer class="bottom-container">
+  <nav>
+    <a href="/Portfolio/Personal-Website/index.html" class="custom-text">Home</a>
+    <a href="/Portfolio/Resume/Hobbies.html" class="custom-text">About Me</a>
+    <a href="/Portfolio/Personal-Website/Project.html" class="custom-text">Projects</a>
+    
+  </nav>  
+  <p id="footer">© Jonathan Neil Gonzalez. All rights reserved.</p>
+</footer>
+</body>
+</html>

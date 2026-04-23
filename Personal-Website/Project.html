@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+      background-color: #121111; /* dark background */
+      font-family: 'Bangers', sans-serif;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 900px;
+      border: 4px solid white;
+      box-shadow: 6px 6px 0 #ff0000;
+      background: #1c1c1c;
+    }
+
+    ul {
+      list-style: none;
+      padding: 40px;
+      margin: 20px auto;
+      max-width: 600px;
+    }
+
+    ul li {
+      background: #1c1c1c;
+      margin: 20px 0;
+      padding: 15px;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      transform: skew(-5deg);
+      border: 3px solid white;
+      box-shadow: 6px 6px 0 #ff0000;
+      text-shadow: 2px 2px 0 #ff0000, 4px 4px 0 #000000;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    ul li a:hover {
+      color: #ff0000;
+    }
+
+
+    hr {
+      border: none;
+      height: 4px;
+      background: white;
+      box-shadow: 4px 4px 0 #ff0000;
+      transform: skew(-10deg);
+      margin: 40px auto;
+      width: 80%;
+    }
+
+    .bottom-container {
+    display: flex;              /* flex layout */
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-family: 'Bangers', sans-serif;
+    font-size: 1rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transform: skew(-10deg);
+    border: 4px solid white;
+    box-shadow: 6px 6px 0 #ff0000;
+    text-shadow: 3px 3px 0 #ff0000, 6px 6px 0 #000000;
+    max-width: 900px;
+    }
+
+    .bottom-container nav {
+    display: flex;
+    gap: 30px;
+    }
+
+    .custom-text {
+    text-decoration: none;
+    color: white;
+    }
+
+    .custom-text:hover {
+    color: #ff0000; /* highlight on hover */
+    }
+
+@media (max-width: 600px) {
+  .bottom-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+}
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+      ul li {
+        font-size: 1rem;
+        padding: 10px;
+      }
+    }
+
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Projects</h1>
+        </header>
+    </div>
+
+    <div>
+        <ul>
+            <li><a href="/Portfolio/Resume/index.html">Resume</a></li>
+            <li><a href="/Portfolio/Legend-of-Heroes/index.html">Test Website</a></li>
+        </ul>
+    </div><hr>
+
+<footer class="bottom-container">
+  <nav>
+    <a href="/Portfolio/index.html" class="custom-text">Home</a>
+    <a href="/Portfolio/Resume/Hobbies.html" class="custom-text">About Me</a>
+    <a href="/Portfolio/Personal-Website/Project.html" class="custom-text">Projects</a>
+  </nav>
+  <p id="footer">© Jonathan Neil Gonzalez. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

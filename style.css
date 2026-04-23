@@ -1,0 +1,110 @@
+body {
+    background-color: #121111; /* Persona 5 black background */
+    font-family: 'Bangers', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;    
+}
+
+.top-container {
+   text-align: center;
+   color: white;
+   font-size: 20px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   border:4px solid white;
+   box-shadow: 6px 6px 0 #ff0000;
+   text-shadow: 2px 2px 0 #ff0000, 4px 4px 0 #000000;
+   margin: 10px auto;
+   text-decoration: none; /* removes underline */
+
+   text-shadow:
+        3px 3px 0 #ff0000,  /* red outline */
+        6px 6px 0 #000000;  /* black drop shadow */
+   
+}
+
+.mid-container {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border:4px solid white;
+    min-height: 100vh; /* ensures it’s at least full screen */
+    height: auto;      /* grows with content */
+    box-shadow: 6px 6px 0 #ff0000;
+    text-shadow: 2px 2px 0 #ff0000, 4px 4px 0 #000000;
+    margin: 20px auto;
+    text-decoration: none; /* removes underline */
+    
+    text-shadow:
+        3px 3px 0 #ff0000,  /* red outline */
+        6px 6px 0 #000000;  /* black drop shadow */
+}
+
+.P-container {
+    display: ;
+}
+
+.Persona-text {
+    padding: 100px 0px 100px 100px;
+    margin: 20px;
+}
+
+.Persona-text2 {
+    padding: 50px 100px 100px 100px;
+    margin: 20px;
+}
+
+.Persona-text3 {
+    padding: 50px 100px 100px 100px;
+    margin: 20px;
+}
+
+p a {
+    text-decoration: none; /* removes underline */
+    color: white;          /* changes font color */
+}
+
+
+.bottom-container {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border:4px solid white;
+    box-shadow: 6px 6px 0 #ff0000;
+    text-shadow: 2px 2px 0 #ff0000, 4px 4px 0 #000000;
+    margin: 20px auto;
+    
+    
+    text-shadow:
+        3px 3px 0 #ff0000,  /* red outline */
+        6px 6px 0 #000000;  /* black drop shadow */
+}
+
+nav a {
+    text-decoration: none; /* removes underline */
+    color: white;          /* changes font color */
+}
+
+.custom-text {
+    text-decoration: none;
+    color: white;
+    }
+
+.custom-text:hover {
+    color: #ff0000; /* highlight on hover */
+    }
+
+@media (min-width: 1024px) {
+    .P-container {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .Persona-text, .Persona-text2, .Persona-text3 {
+        flex: 1; /* each takes equal space */
+        min-width: 250px; /* prevents shrinking too much */
+    }
+}

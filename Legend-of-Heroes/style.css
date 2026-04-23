@@ -1,0 +1,58 @@
+html {
+    background-color: #2F214B;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+}
+
+.Trails {
+    text-align: center;
+    color: skyblue;
+    border-bottom: 10px solid;
+    border-top: 20px solid;
+    padding-bottom: 20px;
+}
+
+.Series {
+    color: skyblue;
+    background-color: black;
+    border: 10px solid skyblue;
+    padding: 10px;
+    text
+}
+
+
+/* CSS for Soundtrack.html */
+.OST {
+    color: skyblue;
+    text-align: center;
+    border-top: 20px solid;
+    border-bottom: 10px solid;
+    padding: 20px;
+}
+
+.Music {
+    color: skyblue;
+    background-color: black;
+    border: 10px solid skyblue;
+    padding: 10px;   
+}
+
+ul {
+    margin-bottom: 15px;
+}
+footer p {
+    text-align: center;
+    color: skyblue;
+}
+
+nav a{
+    color: skyblue;
+    text-decoration: none;
+}
+
+
+
+
